@@ -23,7 +23,7 @@ object InvoicePdf {
         p.color = Color.WHITE
         p.textSize = 28f
         p.isFakeBoldText = true
-        c.drawText("Bill Mind Pro", 36f, 42f, p)
+        c.drawText("Invoice Flow", 36f, 42f, p)
         p.textSize = 15f
         p.isFakeBoldText = false
         c.drawText("GST Invoice ${invoice.number}", 36f, 68f, p)

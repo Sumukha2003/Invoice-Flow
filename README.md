@@ -1,4 +1,4 @@
-# Invoice Flow - Bill Mind Pro
+# Invoice Flow
 
 Native Kotlin Android billing, GST invoice, stock, and customer credit management app built with Jetpack Compose and Material 3.
 

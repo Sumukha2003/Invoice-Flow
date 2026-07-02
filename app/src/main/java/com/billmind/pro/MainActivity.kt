@@ -147,7 +147,7 @@ private fun BillMindApp(state: BillMindState, vm: BillMindViewModel, onLogout: (
             TopAppBar(
                 title = {
                     Column {
-                        Text("Bill Mind Pro", fontWeight = FontWeight.Bold)
+                        Text("Invoice Flow", fontWeight = FontWeight.Bold)
                         Text("Smart Billing & Inventory", style = MaterialTheme.typography.labelMedium)
                     }
                 },
@@ -204,7 +204,7 @@ private fun LoginScreen(onLogin: () -> Unit) {
             ) {
                 Column(Modifier.padding(22.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
                     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text("Bill Mind Pro", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                        Text("Invoice Flow", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                         Text("Login to manage billing, stock, and customer credit.", color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                     Field("Email or mobile", email) {
